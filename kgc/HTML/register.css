@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue ;
+   
+  }
+
+  .btn,
+  .delete-btn,
+  .option-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--white);
+    border-radius: 5px;
+  }
+
+.form-container{
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-container form{
+    width: 500px;
+    border-radius: 5px;
+    border: var(--border);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.form-container form h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.form-container form .box{
+    width: 100%;
+    border-radius: 5px;
+    border: var(--border);
+    padding:12px 14px;
+    font-size: 18px;
+    margin: 10px 0;
+    
+
+}
